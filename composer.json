@@ -1,0 +1,36 @@
+{
+    "name": "ngiannini/porous",
+    "description": "A framework for developing intentionally vulnerable web applications.",
+    "keywords": [
+        "porous",
+        "framework",
+        "vulnerable"
+    ],
+    "homepage": "https://github.com/ngiannini/porousphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicholas Giannini",
+            "email": "n.giannini@live.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/container": "~1.0",
+        "league/route": "~1.0",
+        "league/event": "~2.0",
+        "symfony/http-foundation": "~2.0",
+        "symfony/http-kernel": "~2.0",
+        "stack/builder": "~1.0",
+        "stack/run": "~1.0",
+        "monolog/monolog": "1.13.1",
+        "league/plates": "3.*",
+        "respect/validation": "0.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Porous\\": "src/"
+        }
+    }
+}
